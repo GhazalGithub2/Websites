@@ -1,0 +1,234 @@
+.body{
+
+	font-weight: 400;
+line-height: 1.5;
+/*color: #212529;*/
+padding-left: 200px;
+padding-right: 200px;
+background-color: #f7f7f7;
+font-family: Poppins,sans-serif;
+
+margin: 100px;
+}
+.header{
+	text-align: centre;
+	border: solid #385773;
+}
+
+.logo {
+  width:150px;
+  display: inline-block;
+
+}
+.navbar{
+	font-family: Poppins,sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	position:absolute;
+	display: inline-block;
+}
+
+li {
+ list-style: inline;
+display: inline-block;
+float: left;
+padding: 20px;
+}
+.navbar>ul>a>li{
+
+font-size: 20px;
+font-weight: bolder;
+}
+
+.mainSection{
+	background-image: url('images/bg.jpeg');
+	 background-size: cover;
+	text-align: centre;
+	height: 335px;
+}
+
+.leftHeading>h1{
+	display: inline-block;
+
+	color: #f7f7f7;
+	text-align: justify;
+}
+.leftHeading{
+	color: #f7f7f7;
+	float:right;
+	text-align: justify;
+	padding-left: 380px;
+	padding-right: 100px;
+position: absolute;
+padding-top: 30px;
+}
+.rightImage{
+	display: inline-block;
+	height:100px;
+	width:100px;
+}
+.footer{
+	text-align: centre;
+	border: solid #212529;
+}
+.about{
+	text-align: center;
+	color:#33383c;
+
+}
+.middleFooter{
+	background-color: #33383c;
+	float:left;
+	display: flex;
+	width:100%;
+	text-align: justify;
+	color:aliceblue;
+	
+}
+
+.leftFooter{
+	background-color: #34383b;
+	
+	display: inline-block;
+}
+.leftFooter>p{
+	
+	padding-left: 20px;
+}
+.leftFooter>p>span{
+	color:white;
+	font-style: bold;
+}
+.rightFooter{
+	display: inline-block;
+	background-color: #34383b;
+	
+	padding: 20px;
+}
+.rightFooter>ul{
+	display: inline-block;
+	background-color: #34383b;
+	color:white;
+
+}
+
+.mainSectionContact{
+	background-color: cadetblue;
+	text-align: center;
+	color:white;
+}
+.field{
+	padding-left: 80px;
+padding-top: 20px;
+}
+.field>input{
+	width: 250px;
+}.field>textarea{
+	width: 250px;
+}
+.field>button{
+	width: 150px;
+height: 50px;
+background-color: #fcab00;
+}
+
+
+
+.mainSectionLogin{
+	border: solid #385773;
+	text-align: center;
+background-color: antiquewhite;
+}
+.fieldL{
+
+padding-top: 20px;
+}
+.fieldL>input{
+	width: 250px;
+}.fieldL>textarea{
+	width: 250px;
+}
+.fieldLB>input{
+	width: 150px;
+height: 50px;
+background-color: #06dd8c;
+font-size: 16px;
+font-weight: 3px;
+margin: 15px;
+}
+
+
+.mainSection2{
+	background-image: url('images/c.jpg');
+	
+     background-size: cover;
+}
+.openAcocountForm{
+	text-align: centre;
+	opacity: 1.0;
+}
+.fieldO{
+	text-align: center;
+	padding-top: 20px;
+
+}
+.fieldO>h1{
+	text-align: center;
+	background-color:#385773;
+	color:white;
+	margin:0;
+}
+.fieldO>input{
+	width: 350px;
+	height: 25px;
+	background-color: darkgray;
+}
+.fieldO>button{
+	width: 150px;
+height: 50px;
+background-color: #c11d31;
+font-size: 16px;
+font-weight: 3px;
+}
+
+.mainSection3{
+	text-align: center;
+	font-family: Poppins,sans-serif;
+	color: #273e48;
+	border: solid #385773;
+}
+.table{
+	padding:40px;
+	padding-right: 200px;
+}
+
+.mainSection2{
+text-align: center;
+	font-family: Poppins,sans-serif;
+	color: #273e48;
+	border: solid #385773;
+}
+.contents{
+	text-align: center;
+	font-family: Poppins,sans-serif;
+	color: #273e48;
+	border: solid #385773;
+	display: inline-block;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.item{
+	border:solid #385773;
+	float: left;
+	margin:1px;
+	width: 229px;
+	height: 290px
+}
+.item>img{
+
+	position: center;
+}
+.item>h2{
+	font-size: 22px;
+}
